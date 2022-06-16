@@ -1,0 +1,65 @@
+/* @theme testTheme */
+
+@import "gaia";
+
+/* クラス名未指定全スライド共通設定 */
+section {
+  /* フォント指定 */
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+
+  /* スライドのサイズを指定 デフォルトでは16:9 */
+  width: 100%;
+  height: 100%;
+}
+
+/* topクラス*/
+section.top {
+  background-color: rgb(62, 152, 182);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.top h1 {
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+}
+
+section.top h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+/* normalクラス*/
+
+section.normal h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+section.normal header {
+  text-align: right;
+  color: darkblue;
+}
+
+section.normal footer {
+  color: dimgray;
+}
+
+/* finishクラス */
+section.finish {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.finish h1 {
+  color: white;
+  font-size: 10rem;
+}

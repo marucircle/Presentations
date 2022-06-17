@@ -22,12 +22,14 @@ section.top {
 }
 
 section.top h1 {
+  text-align: center;
   color: white;
   font-size: 2.5rem;
   letter-spacing: 5px;
 }
 
 section.top h2 {
+  text-align: center;
   color: white;
   font-size: 2rem;
   margin-top: 20px;

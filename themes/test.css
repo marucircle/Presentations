@@ -44,6 +44,12 @@ section.normal h1 {
   border-bottom: 1px solid #333;
 }
 
+section.normal h2 {
+  color: #333;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
 section.normal header {
   text-align: right;
   color: darkblue;

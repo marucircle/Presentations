@@ -21,6 +21,14 @@ section.top {
   justify-content: center;
 }
 
+section.blue {
+  background-color: rgb(62, 152, 182);
+}
+
+section.light {
+  background-color: ;
+}
+
 section.top h1 {
   text-align: center;
   color: white;
